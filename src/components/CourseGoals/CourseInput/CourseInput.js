@@ -29,7 +29,7 @@ const CourseInput = (props) => {
         <label style={{ color: !isValid ? "red" : "black" }}>Course Goal</label>
         <input
           style={{
-            color: !isValid ? "red" : "black",
+            borderColor: !isValid ? "red" : "#ccc",
             background: !isValid ? "salmon" : "transparent",
           }}
           type="text"
